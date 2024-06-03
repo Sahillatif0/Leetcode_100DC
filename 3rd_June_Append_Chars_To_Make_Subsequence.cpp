@@ -11,7 +11,7 @@ public:
         for(int i=0;i<t.size();i++)
             if(t[i]!='0')
                 cnt++;
-        return t.size();
+        return cnt;
     }
 };
 int main() {
